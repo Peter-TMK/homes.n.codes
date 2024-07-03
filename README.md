@@ -1,8 +1,11 @@
-# React + Vite
+# Homes 'N' Codes Limited
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our platform, your go-to site for buying, selling, leasing, renting, managing, and investing in properties. Our listings include houses, cars, filling stations, retail outlets, and more.
 
-Currently, two official plugins are available:
+Our site is currently under development and will be launched soon after it passes the MVP stages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For more information, feel free to contact me.
+
+Email: homes.n.codes@gmail.com
+
+Mobile: +2348064772024 | +2348102654290
