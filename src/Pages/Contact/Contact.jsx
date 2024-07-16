@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { ContactImage } from '../../assets/images/index.img';
 import './Contact.css';
 import faqData from './FaqData';
@@ -11,10 +12,19 @@ const Contact = () => {
   const handleHeadingClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+  const location = useLocation();
 
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return (
     <>
-      <section className='contact'>
+      <section className='contact' id='top-section'>
         <div className='row'>
           <div className='image'>
             <img
@@ -68,8 +78,8 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className='faq'>
-        <h1 className='heading' id='faq'>
+      <section className='faq' id='faq'>
+        <h1 className='heading'>
           FAQ
         </h1>
         <div className='box-container'>
